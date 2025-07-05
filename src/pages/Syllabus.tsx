@@ -14,35 +14,35 @@ const Syllabus = () => {
       title: '1st Semester',
       description: 'Complete syllabus for 1st semester subjects',
       icon: <FileCheck className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 1st semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1A_9ejublRRWLtLOOFAuFH2K6YFTyU8-3?usp=drive_link'
     },
     {
       id: 2,
       title: '2nd Semester',
       description: 'Complete syllabus for 2nd semester subjects',
       icon: <FileCheck className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 2nd semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1tC3IXVWei8lVUt1jsc5X58FoyJqlbGDU?usp=drive_link'
     },
     {
       id: 3,
       title: '3rd Semester',
       description: 'Complete syllabus for 3rd semester subjects',
       icon: <FileCheck className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 3rd semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1LmqkCZGLwhc_t20ODj6e0kqB0muK7Zwq?usp=drive_link'
     },
     {
       id: 4,
       title: '4th Semester',
       description: 'Complete syllabus for 4th semester subjects',
       icon: <FileCheck className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 4th semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1JXrjbWgjlUAiiDsxEkcnWoyNIHvYyPWo?usp=drive_link'
     },
     {
       id: 5,
       title: '5th Semester',
       description: 'Complete syllabus for 5th semester subjects',
       icon: <FileCheck className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 5th semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1glR2WrvtpJoNk7aRdaWhelb87HyVi9ck?usp=drive_link'
     },
     {
       id: 6,
@@ -56,14 +56,14 @@ const Syllabus = () => {
       title: '7th Semester',
       description: 'Complete syllabus for 7th semester subjects',
       icon: <FileCheck className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 7th semester link here
+      driveLink: 'https://drive.google.com/drive/folders/19pIj2RxHiAwDze8r4LmH-MkeSwPUyYQ-?usp=drive_link'
     },
     {
       id: 8,
       title: '8th Semester',
       description: 'Complete syllabus for 8th semester subjects',
       icon: <FileCheck className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 8th semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1jY8CannaG4vNQhfVLImyg1HxLxAS_2a7?usp=drive_link'
     },
   ];
 

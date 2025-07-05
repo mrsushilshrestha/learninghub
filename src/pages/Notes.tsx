@@ -14,35 +14,36 @@ const Notes = () => {
       title: '1st Semester Notes',
       description: 'Complete collection of notes for 1st semester subjects',
       icon: <BookOpen className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 1st semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1q_4vP44otQH6JCI_rEKi2i_XbDnqNet0?usp=drive_link'
+ 
     },
     {
       id: 2,
       title: '2nd Semester Notes',
       description: 'Complete collection of notes for 2nd semester subjects',
       icon: <BookOpen className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 2nd semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1946faVh8yccFwyzpRUSFmzqfCvv52emB?usp=drive_link'
     },
     {
       id: 3,
       title: '3rd Semester Notes',
       description: 'Complete collection of notes for 3rd semester subjects',
       icon: <BookOpen className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 3rd semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1-glXFBjRM2CfNL1Uer-Rk2-aTHs-Ulsr?usp=drive_link'
     },
     {
       id: 4,
       title: '4th Semester Notes',
       description: 'Complete collection of notes for 4th semester subjects',
       icon: <BookOpen className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 4th semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1JkrQizcIfdkxFnn1XNPsVFbUoSoEG-Y7?usp=drive_link'
     },
     {
       id: 5,
       title: '5th Semester Notes',
       description: 'Complete collection of notes for 5th semester subjects',
       icon: <BookOpen className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 5th semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1hHMrv5XNHtPn3ukqFNxUELIHUC4yvvzd?usp=drive_link'
     },
     {
       id: 6,
@@ -56,14 +57,14 @@ const Notes = () => {
       title: '7th Semester Notes',
       description: 'Complete collection of notes for 7th semester subjects',
       icon: <BookOpen className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 7th semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1RgtYW6q0jbbAu67W0MiFXmcVmtCYk-5N?usp=drive_link'
     },
     {
       id: 8,
       title: '8th Semester Notes',
       description: 'Complete collection of notes for 8th semester subjects',
       icon: <BookOpen className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 8th semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1XPnzzjZQorEdGzkMzPFgMEqAlPQ989ZL?usp=drive_link'
     },
   ];
 

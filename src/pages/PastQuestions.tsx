@@ -14,35 +14,35 @@ const PastQuestions = () => {
       title: '1st Semester Questions',
       description: 'Previous year question papers for 1st semester',
       icon: <FileText className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 1st semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1pyzDUBzYmyklqEEuPk6wkCniEkjXVJVK?usp=drive_link'
     },
     {
       id: 2,
       title: '2nd Semester Questions',
       description: 'Previous year question papers for 2nd semester',
       icon: <FileText className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 2nd semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1GVMPEzKJ8xkUppRVe88vg_DnKEj_8u6C?usp=drive_link'
     },
     {
       id: 3,
       title: '3rd Semester Questions',
       description: 'Previous year question papers for 3rd semester',
       icon: <FileText className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 3rd semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1bUtCvCeY-6uCRSQOVogqbt7h94kc2nyS?usp=drive_link'
     },
     {
       id: 4,
       title: '4th Semester Questions',
       description: 'Previous year question papers for 4th semester',
       icon: <FileText className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 4th semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1JkrQizcIfdkxFnn1XNPsVFbUoSoEG-Y7?usp=drive_link'
     },
     {
       id: 5,
       title: '5th Semester Questions',
       description: 'Previous year question papers for 5th semester',
       icon: <FileText className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 5th semester link here
+      driveLink: 'https://drive.google.com/drive/folders/11MdFDY6iaKLxbuqaQF1eY5IZIowTD6QG?usp=drive_link'
     },
     {
       id: 6,
@@ -56,14 +56,14 @@ const PastQuestions = () => {
       title: '7th Semester Questions',
       description: 'Previous year question papers for 7th semester',
       icon: <FileText className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 7th semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1OqS9wdt1yla3yIudTPJvIGouBIs6cdur?usp=drive_link'
     },
     {
       id: 8,
       title: '8th Semester Questions',
       description: 'Previous year question papers for 8th semester',
       icon: <FileText className="w-12 h-12 text-primary" />,
-      driveLink: null // Add your 8th semester link here
+      driveLink: 'https://drive.google.com/drive/folders/1WtBh2PPrdBki8I-on8WEnH8WA6SkTh-x?usp=drive_link'
     },
   ];
 
