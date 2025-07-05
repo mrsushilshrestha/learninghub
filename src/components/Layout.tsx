@@ -53,7 +53,7 @@ const Layout = ({ children }: LayoutProps) => {
                 <div className="w-8 h-8 sm:w-10 sm:h-10 bg-primary rounded-lg flex items-center justify-center">
                   <GraduationCap className="w-5 h-5 sm:w-6 sm:h-6 text-primary-foreground" />
                 </div>
-                <span className="text-lg sm:text-xl font-bold text-foreground">LearnHub</span>
+                <span className="text-lg sm:text-xl font-bold text-foreground">HamroBIT</span>
               </Link>
             </div>
 
@@ -194,7 +194,7 @@ const Layout = ({ children }: LayoutProps) => {
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                   <GraduationCap className="w-5 h-5 text-primary-foreground" />
                 </div>
-                <span className="text-lg font-semibold">LearnHub</span>
+                <span className="text-lg font-semibold">HamroBIT</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Your comprehensive learning platform for academic excellence
@@ -235,7 +235,7 @@ const Layout = ({ children }: LayoutProps) => {
           </div>
 
           <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            © 2025 LearnHub. All rights reserved.
+            © 2025 HamroBIT. All rights reserved.
           </div>
         </div>
       </footer>

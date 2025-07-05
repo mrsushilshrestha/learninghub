@@ -9,25 +9,25 @@ const Home = () => {
     {
       title: 'Study Notes',
       description: 'Comprehensive notes covering all subjects and topics in detail',
-      icon: <BookOpen className="w-6 h-6 sm:w-8 sm:h-8 text-primary" />,
+      icon: <BookOpen className="w-6 h-6 sm:w-8 sm:h-8" />,
       image: IMAGES.features.notes
     },
     {
       title: 'Past Questions',
       description: 'Access previous exam questions to practice and prepare effectively',
-      icon: <FileText className="w-6 h-6 sm:w-8 sm:h-8 text-primary" />,
+      icon: <FileText className="w-6 h-6 sm:w-8 sm:h-8" />,
       image: IMAGES.features.pastQuestions
     },
     {
       title: 'Syllabus',
       description: 'Complete curriculum and course outlines for structured learning',
-      icon: <FileCheck className="w-6 h-6 sm:w-8 sm:h-8 text-primary" />,
+      icon: <FileCheck className="w-6 h-6 sm:w-8 sm:h-8" />,
       image: IMAGES.features.syllabus
     },
     {
       title: 'Notices',
       description: 'Stay updated with important announcements and notifications',
-      icon: <Bell className="w-6 h-6 sm:w-8 sm:h-8 text-primary" />,
+      icon: <Bell className="w-6 h-6 sm:w-8 sm:h-8" />,
       image: IMAGES.features.notices
     }
   ];
@@ -36,7 +36,6 @@ const Home = () => {
     {
       title: 'Advanced Python Programming',
       subject: 'Python',
-      semester: '6th Semester',
       date: 'Jan 15, 2025',
       image: IMAGES.materials.programming,
       rating: 4.8,
@@ -46,7 +45,6 @@ const Home = () => {
     {
       title: 'Django Web Framework',
       subject: 'Django',
-      semester: '5th Semester', 
       date: 'Jan 12, 2025',
       image: IMAGES.materials.programming,
       rating: 4.9,
@@ -56,7 +54,6 @@ const Home = () => {
     {
       title: 'Laravel PHP Framework',
       subject: 'Laravel',
-      semester: '4th Semester',
       date: 'Jan 10, 2025',
       image: IMAGES.materials.programming,
       rating: 4.7,
@@ -66,7 +63,6 @@ const Home = () => {
     {
       title: 'Git Version Control',
       subject: 'Git',
-      semester: '3rd Semester',
       date: 'Jan 8, 2025',
       image: IMAGES.materials.programming,
       rating: 4.6,
@@ -76,7 +72,6 @@ const Home = () => {
     {
       title: 'Technical Documentation',
       subject: 'Technical Writing',
-      semester: '2nd Semester',
       date: 'Jan 5, 2025',
       image: IMAGES.materials.programming,
       rating: 4.5,
@@ -208,7 +203,7 @@ const Home = () => {
             {stats.map((stat, index) => (
               <div key={index} className="text-center group">
                 <div className="inline-flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-primary/10 hover:bg-primary/20 rounded-full mb-4 transition-all duration-300 group-hover:scale-110">
-                  <div className="text-primary group-hover:scale-110 transition-transform duration-300">
+                  <div className="group-hover:scale-110 transition-transform duration-300">
                     {stat.icon}
                   </div>
                 </div>
@@ -246,11 +241,6 @@ const Home = () => {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                  <div className="absolute top-4 left-4">
-                    <span className="bg-primary text-primary-foreground px-2 py-1 rounded text-xs font-medium">
-                      {material.semester}
-                    </span>
-                  </div>
                   <div className="absolute bottom-4 right-4 flex items-center space-x-1 text-white text-sm">
                     <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                     <span>{material.rating}</span>
@@ -292,7 +282,7 @@ const Home = () => {
       <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-primary to-primary/80 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="w-full h-full bg-repeat" style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4H6zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
           }}></div>
         </div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
@@ -300,7 +290,7 @@ const Home = () => {
             Ready to Excel in Your Studies?
           </h2>
           <p className="text-lg sm:text-xl text-primary-foreground/90 mb-6 sm:mb-8 max-w-2xl mx-auto">
-            Join thousands of students who are already using LearnHub to achieve academic success
+            Join thousands of students who are already using HamroBIT to achieve academic success
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" className="bg-background text-foreground hover:bg-background/90 group">
