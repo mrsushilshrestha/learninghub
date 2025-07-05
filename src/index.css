@@ -1,0 +1,251 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme system with 7 color presets */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 238 69% 58%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 238 69% 58%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 238 69% 58%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 238 69% 58%;
+  }
+
+  /* Blue Theme - Light Mode */
+  .theme-blue {
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+    --ring: 221 83% 53%;
+    --accent: 214 100% 97%;
+    --accent-foreground: 221 83% 53%;
+  }
+
+  /* Blue Theme - Dark Mode */
+  .theme-blue.dark {
+    --primary: 221 83% 58%;
+    --primary-foreground: 210 40% 98%;
+    --ring: 221 83% 58%;
+    --accent: 221 83% 15%;
+    --accent-foreground: 221 83% 90%;
+  }
+
+  /* Green Theme - Light Mode */
+  .theme-green {
+    --primary: 142 76% 36%;
+    --primary-foreground: 210 40% 98%;
+    --ring: 142 76% 36%;
+    --accent: 142 76% 96%;
+    --accent-foreground: 142 76% 36%;
+  }
+
+  /* Green Theme - Dark Mode */
+  .theme-green.dark {
+    --primary: 142 76% 45%;
+    --primary-foreground: 210 40% 98%;
+    --ring: 142 76% 45%;
+    --accent: 142 76% 15%;
+    --accent-foreground: 142 76% 85%;
+  }
+
+  /* Yellow Theme - Light Mode */
+  .theme-yellow {
+    --primary: 48 96% 53%;
+    --primary-foreground: 26 83% 14%;
+    --ring: 48 96% 53%;
+    --accent: 48 96% 95%;
+    --accent-foreground: 48 96% 25%;
+  }
+
+  /* Yellow Theme - Dark Mode */
+  .theme-yellow.dark {
+    --primary: 48 96% 60%;
+    --primary-foreground: 26 83% 14%;
+    --ring: 48 96% 60%;
+    --accent: 48 96% 20%;
+    --accent-foreground: 48 96% 85%;
+  }
+
+  /* Red Theme - Light Mode */
+  .theme-red {
+    --primary: 0 72% 51%;
+    --primary-foreground: 210 40% 98%;
+    --ring: 0 72% 51%;
+    --accent: 0 72% 97%;
+    --accent-foreground: 0 72% 51%;
+  }
+
+  /* Red Theme - Dark Mode */
+  .theme-red.dark {
+    --primary: 0 72% 58%;
+    --primary-foreground: 210 40% 98%;
+    --ring: 0 72% 58%;
+    --accent: 0 72% 15%;
+    --accent-foreground: 0 72% 85%;
+  }
+
+  /* Purple Theme - Light Mode */
+  .theme-purple {
+    --primary: 271 81% 56%;
+    --primary-foreground: 210 40% 98%;
+    --ring: 271 81% 56%;
+    --accent: 271 81% 96%;
+    --accent-foreground: 271 81% 56%;
+  }
+
+  /* Purple Theme - Dark Mode */
+  .theme-purple.dark {
+    --primary: 271 81% 65%;
+    --primary-foreground: 210 40% 98%;
+    --ring: 271 81% 65%;
+    --accent: 271 81% 15%;
+    --accent-foreground: 271 81% 85%;
+  }
+
+  /* Teal Theme - Light Mode */
+  .theme-teal {
+    --primary: 173 58% 39%;
+    --primary-foreground: 210 40% 98%;
+    --ring: 173 58% 39%;
+    --accent: 173 58% 95%;
+    --accent-foreground: 173 58% 39%;
+  }
+
+  /* Teal Theme - Dark Mode */
+  .theme-teal.dark {
+    --primary: 173 58% 48%;
+    --primary-foreground: 210 40% 98%;
+    --ring: 173 58% 48%;
+    --accent: 173 58% 15%;
+    --accent-foreground: 173 58% 85%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+  }
+}
+
+/* Enhanced responsive utilities */
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+
+  /* Responsive text sizes */
+  .text-responsive-xs {
+    @apply text-xs sm:text-sm;
+  }
+
+  .text-responsive-sm {
+    @apply text-sm sm:text-base;
+  }
+
+  .text-responsive-base {
+    @apply text-base sm:text-lg;
+  }
+
+  .text-responsive-lg {
+    @apply text-lg sm:text-xl;
+  }
+
+  .text-responsive-xl {
+    @apply text-xl sm:text-2xl;
+  }
+
+  .text-responsive-2xl {
+    @apply text-2xl sm:text-3xl lg:text-4xl;
+  }
+
+  .text-responsive-3xl {
+    @apply text-3xl sm:text-4xl lg:text-5xl;
+  }
+
+  /* Responsive spacing */
+  .spacing-responsive-sm {
+    @apply space-y-4 sm:space-y-6;
+  }
+
+  .spacing-responsive-md {
+    @apply space-y-6 sm:space-y-8;
+  }
+
+  .spacing-responsive-lg {
+    @apply space-y-8 sm:space-y-12;
+  }
+
+  /* Better mobile navigation */
+  .mobile-nav-item {
+    @apply block px-3 py-2 text-base font-medium hover:bg-accent hover:text-accent-foreground transition-colors;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
